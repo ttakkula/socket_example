@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Socket.io chat example</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="chat_scripts.js"></script>
+    <style>
+        .container {
+            width: 6em;
+            margin: 25px auto;
+        }
+        textarea, input {
+            margin-bottom: 1em;
+        }
+    </style>
+    
+    </head>
+    <body>
+        <div class="container">
+            <textarea id="messages"></textarea><br>
+            <input type="text" id="chat_message"><br>
+            <input type="button" value="Send" id="send">
+        </div>
+    </body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "socket_example",
+  "version": "1.0.0",
+  "description": "Example app with socket.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ttakkula/socket_example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ttakkula/socket_example/issues"
+  },
+  "homepage": "https://github.com/ttakkula/socket_example#readme",
+  "dependencies": {
+    "express": "^4.13.3",
+    "socket.io": "^1.4.4"
+  }
+}
